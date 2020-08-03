@@ -37,7 +37,7 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     msg_to_recipent = f'Subject: MALWARE \n\n{USER_MAIL_BODY}'
     
         #Sends report to admin
-    smtp.sendmail(USER_MAIL_ADRESS, "jtulek@at-rt.com", msg_to_admin) 
+    smtp.sendmail(USER_MAIL_ADRESS, <!your_admin_mail>, msg_to_admin) 
     
         #clears screen
     clscreen()
